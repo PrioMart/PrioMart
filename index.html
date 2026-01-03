@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrioMart | আপনার পছন্দের বাজার</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0a7cff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #054a91;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+        }
+        .coming {
+            color: red;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #0a7cff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PrioMart</h1>
+    <p>আপনার পছন্দের বাজার</p>
+</header>
+
+<nav>
+    <a href="#home">হোম</a>
+    <a href="#clothes">পোশাক</a>
+    <a href="#food">খাবার</a>
+    <a href="#contact">যোগাযোগ</a>
+</nav>
+
+<section id="home">
+    <h2>PrioMart এ স্বাগতম</h2>
+    <p>
+        PrioMart হলো আপনার বিশ্বাসের বাজার।  
+        এখানে আপনি পাবেন মানসম্মত পোশাক।  
+        খাবারের পণ্য খুব শিগগিরই আসছে।
+    </p>
+</section>
+
+<section id="clothes">
+    <h2>পোশাক</h2>
+    <div class="products">
+        <div class="card">
+            <h3>টি-শার্ট</h3>
+            <p>আরামদায়ক ও স্টাইলিশ</p>
+            <p><b>দাম:</b> শীঘ্রই জানানো হবে</p>
+        </div>
+        <div class="card">
+            <h3>হুডি</h3>
+            <p>সব ঋতুর জন্য উপযুক্ত</p>
+            <p><b>দাম:</b> শীঘ্রই জানানো হবে</p>
+        </div>
+        <div class="card">
+            <h3>জ্যাকেট</h3>
+            <p>আধুনিক ডিজাইন</p>
+            <p><b>দাম:</b> শীঘ্রই জানানো হবে</p>
+        </div>
+    </div>
+</section>
+
+<section id="food">
+    <h2>খাবারের পণ্য</h2>
+    <p class="coming">শীঘ্রই আসছে 🚧</p>
+    <p>
+        নিরাপদ ও মানসম্মত খাবারের পণ্য খুব শিগগিরই যুক্ত করা হবে।
+    </p>
+</section>
+
+<section id="contact">
+    <h2>যোগাযোগ</h2>
+    <p>ইমেইল: yourname@email.com</p>
+    <p>ফেসবুক / হোয়াটসঅ্যাপ: শীঘ্রই</p>
+</section>
+
+<footer>
+    <p>© 2026 PrioMart | আপনার পছন্দের বাজার</p>
+</footer>
+
+</body>
+</html>
